@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "JCCheckBox.h"
 
 FOUNDATION_EXPORT double JCCheckBoxVersionNumber;
 FOUNDATION_EXPORT const unsigned char JCCheckBoxVersionString[];

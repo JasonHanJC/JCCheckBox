@@ -1,8 +1,8 @@
 {
   "name": "JCCheckBox",
   "version": "0.1.0",
-  "summary": "A short description of JCCheckBox.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "JCCheckBox is a custom UIControl for iOS apps.",
+  "description": "JCCheckbox is a beautful and simple checkbox for iOS apps. It is a subclass of UIControl. It is easy to use.",
   "homepage": "https://github.com/JasonHan1990/JCCheckBox",
   "license": {
     "type": "MIT",
@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "JCCheckBox/Classes/**/*"
+  "source_files": "JCCheckBox/*.{m,h}"
 }

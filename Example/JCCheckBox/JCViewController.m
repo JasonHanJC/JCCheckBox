@@ -7,8 +7,14 @@
 //
 
 #import "JCViewController.h"
+#import "JCCheckBox.h"
 
 @interface JCViewController ()
+@property (weak, nonatomic) IBOutlet UIView *holderView_1;
+@property (weak, nonatomic) IBOutlet UIView *holderView_2;
+
+@property (strong, nonatomic) JCCheckBox *ovalCheckBox;
+@property (strong, nonatomic) JCCheckBox *squareCheckBox;
 
 @end
 
@@ -17,13 +23,31 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    // DEFAULT SIZE INIT
+    self.ovalCheckBox = [JCCheckBox checkBox];
+    // SET STYLE
+    self.ovalCheckBox.checkBoxStyle = JCCheckBoxStyleOval; // square is the default
+    // CHANGE COLOR
+    // self.ovalCheckBox.innerColor = [UIColor greenColor];
+    // self.ovalCheckBox.outerColor = [UIColor greenColor];
+    // SET COMPLETION
+    self.ovalCheckBox.checkedCompletion = ^{
+        NSLog(@"Checked");
+    };
+    self.ovalCheckBox.uncheckedCompletion = ^{
+        NSLog(@"Unchecked");
+    };
+    [self.holderView_1 addSubview:self.ovalCheckBox];
+    
+    
+    self.squareCheckBox = [JCCheckBox checkBox];
+    [self.holderView_2 addSubview:self.squareCheckBox];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)showAlert:(id)sender {
+    [self.ovalCheckBox showAlert];
+    [self.squareCheckBox showAlert];
 }
 
 @end

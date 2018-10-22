@@ -8,31 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		0441E82476A9178178DF00C2AEE41E9A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2379EEB1B2E42B0DADE15CB60E65F85 /* QuartzCore.framework */; };
+		0831964DFE89FF1DFE561012315D0C6D /* JCCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BA2F973D753F22D98232D2A2113B1D /* JCCheckBox-dummy.m */; };
 		0D5E847B5619856E1C22A74EC898F69C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
 		163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
 		387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3BC8F724F4E81AA01F6BAC96102FBE63 /* JCCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77271DA86F0D6376F876FA9B80A77F4B /* JCCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		459F58959A5C947E77A424BF94098D08 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
 		4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
 		4CF5865BAF828AB9A7C56F3A1B1C856F /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D600539FC2E29EA7E28A2DA8A8B328C /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51B99B0375770652A8857F4F1283676D /* Pods-JCCheckBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B11327563BE5161E66F5988419F1DCD0 /* Pods-JCCheckBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58769346C8ADFDAB5CECBE85A609E696 /* JCCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A4AE56D3EAEC069D9FBC954E04166F /* JCCheckBox.m */; };
 		59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CBD08A087D7462DE2F285B0FD016367 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA670301DEDFD294F7B3787536067BA /* ReplaceMe.m */; };
 		620002D55F8D093DFB3E88E2CF8DCC60 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCF8FB06D0D8E2640C57D460AB67AF6 /* XCTest.framework */; };
 		63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		6B71ACB6D56B970D0B2AD8EE2B79D96F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
 		6EC17B6986CC7F9EBDF0521AE86F371B /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
-		6F1288563ACE7416DA628F33E9C844F9 /* JCCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 824311726F9BE47B152D1C1E6E8B2C00 /* JCCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		807C90CB1BEEA9C2938F40691B3E2DE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
 		8CAC3B81FFAB2342335164D30A3ACCD1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B206F681A10A3CEFD3120DC6A65DCE /* UIKit.framework */; };
-		95FF79BC81B03E063CAFB3FD41A7025E /* JCCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA73097604BEF4E3533A59CB909FBFF3 /* JCCheckBox-dummy.m */; };
+		8F618DA3948E5623094426A13D735CC4 /* JCCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = A372426275512E9403AA5A1124463B31 /* JCCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		972F3530D617D086669C6880ABB87CC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
 		AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
 		B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BD9214ECE68AF45DEF8ED175C966FAFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
 		C26F01A832E17BFD080204B148B2D113 /* Pods-JCCheckBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51631B461AB87974AE9C6D7FC8439505 /* Pods-JCCheckBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0ADA8CB02E8B0F788D76B73B965EA56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */; };
 		E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
 		E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
@@ -59,59 +60,61 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7EFE4004D11E05459609B48229CC1AD0;
+			remoteGlobalIDString = 5EF72D86E84ACB856F7023710A856E94;
 			remoteInfo = JCCheckBox;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		0A7064AB23C3FA203F951B0CF6959424 /* JCCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JCCheckBox.modulemap; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		168F4EEB8FBCF9905400B0F6F8B68920 /* Pods-JCCheckBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCCheckBox_Tests-dummy.m"; sourceTree = "<group>"; };
-		1CE57F3FF435C6ED32C5E0BA94C3530D /* JCCheckBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JCCheckBox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		35F0F10174F24F528E3B017FB2F9D836 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37401801688FCFEA2C5FD53C3AE6F2B5 /* JCCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JCCheckBox.modulemap; sourceTree = "<group>"; };
 		37B206F681A10A3CEFD3120DC6A65DCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		3C5F34540BA0F63FA02FFC77CE6CAAE4 /* JCCheckBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCCheckBox.xcconfig; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		3EA670301DEDFD294F7B3787536067BA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JCCheckBox/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		45A4AE56D3EAEC069D9FBC954E04166F /* JCCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JCCheckBox.m; path = JCCheckBox/JCCheckBox.m; sourceTree = "<group>"; };
 		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		4A7E2ED84F59CF6DFDF2D4F5D15314C1 /* Pods-JCCheckBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCCheckBox_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4BCBE86770846BDEF12DE34BA29F63A0 /* Pods-JCCheckBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCCheckBox_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4CCF8FB06D0D8E2640C57D460AB67AF6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		50A537331A4389ED58E4C3F4A9CE4A13 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		51631B461AB87974AE9C6D7FC8439505 /* Pods-JCCheckBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCCheckBox_Example-umbrella.h"; sourceTree = "<group>"; };
 		54F64945EEBB0A9FA71C3B381F74BC15 /* Pods-JCCheckBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCCheckBox_Example-dummy.m"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		5ACB580955F29582E34CE2F19D9DDECD /* Pods-JCCheckBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCCheckBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65BA2F973D753F22D98232D2A2113B1D /* JCCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCCheckBox-dummy.m"; sourceTree = "<group>"; };
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76FA54BE757558C341DD0F256E34D53B /* Pods-JCCheckBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCCheckBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		77271DA86F0D6376F876FA9B80A77F4B /* JCCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCCheckBox-umbrella.h"; sourceTree = "<group>"; };
+		78A6120ED2D002681FC8A049A81AF73E /* JCCheckBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JCCheckBox.xcconfig; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		824311726F9BE47B152D1C1E6E8B2C00 /* JCCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCCheckBox-umbrella.h"; sourceTree = "<group>"; };
 		85085341791EF1EBB3731F3E33EDC98A /* Pods-JCCheckBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCCheckBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		87A32A2CA0A99963B090676800E22DEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A2E8BFECF83407BFB40294B8B4E1AF1 /* JCCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCCheckBox-prefix.pch"; sourceTree = "<group>"; };
 		8EC03C9A87A6B1CF93E3FC95B50D788D /* Pods-JCCheckBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCCheckBox_Example.modulemap"; sourceTree = "<group>"; };
+		8F7A49785214579F769B5680B705DD03 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		972476F449A5F4144D99D70E6B94BA39 /* JCCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JCCheckBox-prefix.pch"; sourceTree = "<group>"; };
+		97E0C507594313B9BD994CD8CD6DB002 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9E86A5D22314A54F97543D7BA44FB864 /* Pods-JCCheckBox_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCCheckBox_Tests-resources.sh"; sourceTree = "<group>"; };
 		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		A372426275512E9403AA5A1124463B31 /* JCCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JCCheckBox.h; path = JCCheckBox/JCCheckBox.h; sourceTree = "<group>"; };
 		A71B0E558CDA5457B0A0135848573C80 /* Pods-JCCheckBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCCheckBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AB5B1D33D5D1EF1235DC6C8F60609F75 /* Pods-JCCheckBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JCCheckBox_Tests.modulemap"; sourceTree = "<group>"; };
 		AF1B32EA347E69116E1B68F5A1247D3E /* Pods_JCCheckBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JCCheckBox_Tests.framework; path = "Pods-JCCheckBox_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11327563BE5161E66F5988419F1DCD0 /* Pods-JCCheckBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCCheckBox_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B5CA8F38E112770656C8E27F337B9437 /* JCCheckBox.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JCCheckBox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		C2379EEB1B2E42B0DADE15CB60E65F85 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		C47CA8A062907F493F9FBD68BDE5FB92 /* Pods-JCCheckBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCCheckBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CA73097604BEF4E3533A59CB909FBFF3 /* JCCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JCCheckBox-dummy.m"; sourceTree = "<group>"; };
 		CC451F4B3F0174F50081F2D20D98D107 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEFAC6BB0DDE117ED5B885AA4EE14F1A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D19E4875546CC1B501C26121FDC6CCA2 /* Pods-JCCheckBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCCheckBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D427ADB667D45D8D50914142B819161C /* Pods-JCCheckBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCCheckBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
@@ -124,7 +127,6 @@
 		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		F6DA36E1CA4C3D87F6E85F737FA483C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F6DC2575A30D44C871E88BBF5E244DE5 /* Pods-JCCheckBox_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCCheckBox_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F89955D47852D1C55163B7AC1ED34B7E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,14 +138,6 @@
 				0441E82476A9178178DF00C2AEE41E9A /* QuartzCore.framework in Frameworks */,
 				8CAC3B81FFAB2342335164D30A3ACCD1 /* UIKit.framework in Frameworks */,
 				620002D55F8D093DFB3E88E2CF8DCC60 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		326B542E62E993B94F4B3CAA7677A540 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0ADA8CB02E8B0F788D76B73B965EA56 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +157,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B253E93DCB2C746814E1E6E83590B814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807C90CB1BEEA9C2938F40691B3E2DE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -172,6 +174,16 @@
 				77E6A3533BFFC5453A29188F8955E61A /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19EA0E7DE5D6D19C216D750B6EEB8A1E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B5CA8F38E112770656C8E27F337B9437 /* JCCheckBox.podspec */,
+				97E0C507594313B9BD994CD8CD6DB002 /* LICENSE */,
+				8F7A49785214579F769B5680B705DD03 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
@@ -185,18 +197,12 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		2641CCE4BEFDB2494A9274C3A79C95B8 /* Support Files */ = {
+		2ECC37A0B53AE370358E31FE817DE5F5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CEFAC6BB0DDE117ED5B885AA4EE14F1A /* Info.plist */,
-				0A7064AB23C3FA203F951B0CF6959424 /* JCCheckBox.modulemap */,
-				3C5F34540BA0F63FA02FFC77CE6CAAE4 /* JCCheckBox.xcconfig */,
-				CA73097604BEF4E3533A59CB909FBFF3 /* JCCheckBox-dummy.m */,
-				8A2E8BFECF83407BFB40294B8B4E1AF1 /* JCCheckBox-prefix.pch */,
-				824311726F9BE47B152D1C1E6E8B2C00 /* JCCheckBox-umbrella.h */,
+				8B034E51C35363FDAF29060326B2FC0C /* JCCheckBox */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JCCheckBox";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		3233E38E2AABD5C190995985D891CEA4 /* Products */ = {
@@ -242,17 +248,6 @@
 			path = "Target Support Files/Pods-JCCheckBox_Tests";
 			sourceTree = "<group>";
 		};
-		37C511438973CFA4F527B53BE3E60BFA /* JCCheckBox */ = {
-			isa = PBXGroup;
-			children = (
-				3EA670301DEDFD294F7B3787536067BA /* ReplaceMe.m */,
-				7C94D23EB217D168362284167B4F99CF /* Pod */,
-				2641CCE4BEFDB2494A9274C3A79C95B8 /* Support Files */,
-			);
-			name = JCCheckBox;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		77E6A3533BFFC5453A29188F8955E61A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,26 +268,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7C94D23EB217D168362284167B4F99CF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1CE57F3FF435C6ED32C5E0BA94C3530D /* JCCheckBox.podspec */,
-				F89955D47852D1C55163B7AC1ED34B7E /* LICENSE */,
-				50A537331A4389ED58E4C3F4A9CE4A13 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				DF23F2E889EAE0C0C4AE7CC4BD721F67 /* Development Pods */,
+				2ECC37A0B53AE370358E31FE817DE5F5 /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
 				3233E38E2AABD5C190995985D891CEA4 /* Products */,
 				7B1FEFBB89A7C9043FCF668ABE203AF3 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8B034E51C35363FDAF29060326B2FC0C /* JCCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				A372426275512E9403AA5A1124463B31 /* JCCheckBox.h */,
+				45A4AE56D3EAEC069D9FBC954E04166F /* JCCheckBox.m */,
+				19EA0E7DE5D6D19C216D750B6EEB8A1E /* Pod */,
+				9A23CCA6BD8781B16146EE608B735D70 /* Support Files */,
+			);
+			name = JCCheckBox;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
@@ -301,6 +298,20 @@
 				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		9A23CCA6BD8781B16146EE608B735D70 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35F0F10174F24F528E3B017FB2F9D836 /* Info.plist */,
+				37401801688FCFEA2C5FD53C3AE6F2B5 /* JCCheckBox.modulemap */,
+				78A6120ED2D002681FC8A049A81AF73E /* JCCheckBox.xcconfig */,
+				65BA2F973D753F22D98232D2A2113B1D /* JCCheckBox-dummy.m */,
+				972476F449A5F4144D99D70E6B94BA39 /* JCCheckBox-prefix.pch */,
+				77271DA86F0D6376F876FA9B80A77F4B /* JCCheckBox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JCCheckBox";
 			sourceTree = "<group>";
 		};
 		C2112667C453A427EFEB61A61648274E /* Pods-JCCheckBox_Example */ = {
@@ -319,14 +330,6 @@
 			);
 			name = "Pods-JCCheckBox_Example";
 			path = "Target Support Files/Pods-JCCheckBox_Example";
-			sourceTree = "<group>";
-		};
-		DF23F2E889EAE0C0C4AE7CC4BD721F67 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				37C511438973CFA4F527B53BE3E60BFA /* JCCheckBox */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
@@ -361,14 +364,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		07469D27BD897AC96C80455AE56864BE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F1288563ACE7416DA628F33E9C844F9 /* JCCheckBox-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		50D3CD34A4EF1503866645879077DB6D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -400,17 +395,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FE96BED2B223A957DC12CA928A18AF96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC8F724F4E81AA01F6BAC96102FBE63 /* JCCheckBox-umbrella.h in Headers */,
+				8F618DA3948E5623094426A13D735CC4 /* JCCheckBox.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7EFE4004D11E05459609B48229CC1AD0 /* JCCheckBox */ = {
+		5EF72D86E84ACB856F7023710A856E94 /* JCCheckBox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C88D18A2FD859CC758E3EAF8E858D72 /* Build configuration list for PBXNativeTarget "JCCheckBox" */;
+			buildConfigurationList = 434A6EC6F8ABF2999D776739554CCB60 /* Build configuration list for PBXNativeTarget "JCCheckBox" */;
 			buildPhases = (
-				07469D27BD897AC96C80455AE56864BE /* Headers */,
-				9C129896DAB98CF1D796DC835EB1D356 /* Sources */,
-				326B542E62E993B94F4B3CAA7677A540 /* Frameworks */,
-				F28EDF1C065388DB78CB2A07CBAAFB15 /* Resources */,
+				FE96BED2B223A957DC12CA928A18AF96 /* Headers */,
+				D8109D54661289C153D1D4B83C8F7A74 /* Sources */,
+				B253E93DCB2C746814E1E6E83590B814 /* Frameworks */,
+				788B8E72C937DAD95770210EABB8D4DB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -500,7 +504,7 @@
 			projectRoot = "";
 			targets = (
 				9208F82521C84CC962FB475DC38D3371 /* FBSnapshotTestCase */,
-				7EFE4004D11E05459609B48229CC1AD0 /* JCCheckBox */,
+				5EF72D86E84ACB856F7023710A856E94 /* JCCheckBox */,
 				C7F86715ED3E1CEA0918F9629AA2CCD0 /* Pods-JCCheckBox_Example */,
 				ED35FB67AE0790DA05F62E07DFB0201B /* Pods-JCCheckBox_Tests */,
 			);
@@ -515,6 +519,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		788B8E72C937DAD95770210EABB8D4DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A74E265D23F3885A132682CAECF047B6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -523,13 +534,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AD4E4321B395852DC07143FDAF5069AF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F28EDF1C065388DB78CB2A07CBAAFB15 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -563,20 +567,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C129896DAB98CF1D796DC835EB1D356 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				95FF79BC81B03E063CAFB3FD41A7025E /* JCCheckBox-dummy.m in Sources */,
-				5CBD08A087D7462DE2F285B0FD016367 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D124BCE835F0A8AD82E85FE37F6BFFD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EE34CC7BC1D9C1B5E96275B466AB1260 /* Pods-JCCheckBox_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8109D54661289C153D1D4B83C8F7A74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0831964DFE89FF1DFE561012315D0C6D /* JCCheckBox-dummy.m in Sources */,
+				58769346C8ADFDAB5CECBE85A609E696 /* JCCheckBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +590,7 @@
 		74F9CB137F2BEC8984548DC53C8537EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JCCheckBox;
-			target = 7EFE4004D11E05459609B48229CC1AD0 /* JCCheckBox */;
+			target = 5EF72D86E84ACB856F7023710A856E94 /* JCCheckBox */;
 			targetProxy = F62132961AF56BECBC56B1D712194523 /* PBXContainerItemProxy */;
 		};
 		850D6083D415236661A89767D92A6096 /* PBXTargetDependency */ = {
@@ -829,6 +833,37 @@
 			};
 			name = Release;
 		};
+		5CE1F54311CF20E4B50172F685D384A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78A6120ED2D002681FC8A049A81AF73E /* JCCheckBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JCCheckBox/JCCheckBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JCCheckBox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JCCheckBox/JCCheckBox.modulemap";
+				PRODUCT_MODULE_NAME = JCCheckBox;
+				PRODUCT_NAME = JCCheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		722CCCA0B37C9761EBDCABFD0D86F4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D427ADB667D45D8D50914142B819161C /* Pods-JCCheckBox_Tests.debug.xcconfig */;
@@ -893,40 +928,9 @@
 			};
 			name = Release;
 		};
-		9B48EAF7EEAFF286948B0A391D6121A0 /* Release */ = {
+		C833EC4DF4CD1291A828C9E0DBC2CD0D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C5F34540BA0F63FA02FFC77CE6CAAE4 /* JCCheckBox.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JCCheckBox/JCCheckBox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JCCheckBox/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JCCheckBox/JCCheckBox.modulemap";
-				PRODUCT_MODULE_NAME = JCCheckBox;
-				PRODUCT_NAME = JCCheckBox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AA9B0C88D6B7F23AE91B65E6D15DFDE2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C5F34540BA0F63FA02FFC77CE6CAAE4 /* JCCheckBox.xcconfig */;
+			baseConfigurationReference = 78A6120ED2D002681FC8A049A81AF73E /* JCCheckBox.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1000,11 +1004,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C88D18A2FD859CC758E3EAF8E858D72 /* Build configuration list for PBXNativeTarget "JCCheckBox" */ = {
+		434A6EC6F8ABF2999D776739554CCB60 /* Build configuration list for PBXNativeTarget "JCCheckBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA9B0C88D6B7F23AE91B65E6D15DFDE2 /* Debug */,
-				9B48EAF7EEAFF286948B0A391D6121A0 /* Release */,
+				C833EC4DF4CD1291A828C9E0DBC2CD0D /* Debug */,
+				5CE1F54311CF20E4B50172F685D384A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
