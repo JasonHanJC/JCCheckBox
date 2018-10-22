@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JCCheckBox_Example' do
+  pod 'JCCheckBox', :path => '../'
+
+  target 'JCCheckBox_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
