@@ -7,7 +7,25 @@
 
 ## Example
 
+![Example Image](https://github.com/JasonHan1990/JCCheckBox/blob/master/ExampleImages/Example.gif)
 
+```objc
+// DEFAULT SIZE INIT
+JCCheckBox *ovalCheckBox = [JCCheckBox checkBox]; // default size 24 by 24
+// SET STYLE
+self.ovalCheckBox.checkBoxStyle = JCCheckBoxStyleOval; // square is the default
+// CHANGE COLOR
+self.ovalCheckBox.innerColor = [UIColor greenColor];
+self.ovalCheckBox.outerColor = [UIColor greenColor];
+// SET COMPLETION
+self.ovalCheckBox.checkedCompletion = ^{
+    NSLog(@"Checked");
+};
+self.ovalCheckBox.uncheckedCompletion = ^{
+    NSLog(@"Unchecked");
+};
+[view addSubview:ovalCheckBox];
+```
 
 ## Requirements
 
