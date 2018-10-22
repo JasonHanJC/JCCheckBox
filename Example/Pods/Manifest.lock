@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JCCheckBox (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JCCheckBox (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JCCheckBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JCCheckBox: 6ce7679233560046799d0991e2fac22efa1a5c0a
+
+PODFILE CHECKSUM: 65b10d99de9541c77296e1f0abd299954c5b917b
+
+COCOAPODS: 1.5.3

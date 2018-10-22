@@ -1,0 +1,6 @@
+framework module JCCheckBox {
+  umbrella header "JCCheckBox-umbrella.h"
+
+  export *
+  module * { export * }
+}
