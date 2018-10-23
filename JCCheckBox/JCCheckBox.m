@@ -91,7 +91,7 @@
 }
 
 - (void)setSelected:(BOOL)selected {
-    [self setSelected:selected];
+    [super setSelected:selected];
     
     if (selected) {
         
