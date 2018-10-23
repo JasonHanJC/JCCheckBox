@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - JCCheckBox (0.1.0)
+  - JCCheckBox (0.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  JCCheckBox: 8e4a7393e40329a7d6e7834a78a39247983d452b
+  JCCheckBox: 5006360b46ae460afa2f70f48837645c3bd5f2d1
 
 PODFILE CHECKSUM: 65b10d99de9541c77296e1f0abd299954c5b917b
 
