@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JCCheckBox'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'JCCheckBox is a custom UIControl for iOS apps.'
   s.description      = <<-DESC
 JCCheckbox is a beautful and simple checkbox for iOS apps. It is a subclass of UIControl. It is easy to use.
