@@ -1,6 +1,6 @@
 # JCCheckBox
 
-[![CI Status](https://img.shields.io/travis/JasonHan1990/JCCheckBox.svg?style=flat)](https://travis-ci.org/JasonHan1990/JCCheckBox)
+<!--[![CI Status](https://img.shields.io/travis/JasonHan1990/JCCheckBox.svg?style=flat)](https://travis-ci.org/JasonHan1990/JCCheckBox)-->
 [![Version](https://img.shields.io/cocoapods/v/JCCheckBox.svg?style=flat)](https://cocoapods.org/pods/JCCheckBox)
 [![License](https://img.shields.io/cocoapods/l/JCCheckBox.svg?style=flat)](https://cocoapods.org/pods/JCCheckBox)
 [![Platform](https://img.shields.io/cocoapods/p/JCCheckBox.svg?style=flat)](https://cocoapods.org/pods/JCCheckBox)
@@ -27,8 +27,6 @@ self.ovalCheckBox.uncheckedCompletion = ^{
 [view addSubview:ovalCheckBox];
 ```
 
-## Requirements
-
 ## Installation
 
 JCCheckBox is available through [CocoaPods](https://cocoapods.org). To install
@@ -37,6 +35,10 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'JCCheckBox'
 ```
+
+or
+
+Manually installation. Download the code and drag `JCCheckBox.h` and `JCCheckBox.m` into your project.
 
 ## Author
 
