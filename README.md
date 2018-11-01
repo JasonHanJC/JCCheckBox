@@ -7,6 +7,8 @@
 
 ## Example
 
+JCCheckBox is simple and beautiful checkbox module written in ObjC. It is a subclass of UIControl. You can either use `addTarget(_:action:for:)` function to handle touch event or use block callback `checkCompletion` and `uncheckCompletion` to handle touch event.
+
 ![Example Image](https://github.com/JasonHan1990/JCCheckBox/blob/master/ExampleImages/Example.gif)
 
 ```objc
@@ -42,7 +44,10 @@ Manually installation. Download the code and drag `JCCheckBox.h` and `JCCheckBox
 
 ## Author
 
-JasonHan1990, namrie1990@gmail.com
+Juncheng Han, namrie1990@gmail.com
+
+My Blog:
+https://junchenghan.com/
 
 ## License
 

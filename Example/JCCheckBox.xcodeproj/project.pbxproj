@@ -69,7 +69,7 @@
 		BB58CFADB9104B0BD4F78B72 /* Pods_JCCheckBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCCheckBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47B84EC79F9D72143D40B0F /* Pods-JCCheckBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCCheckBox_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JCCheckBox_Tests/Pods-JCCheckBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EB745FDED86D625368AB71EB /* Pods_JCCheckBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCCheckBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEB26277D504A3FD49C517D8 /* JCCheckBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JCCheckBox.podspec; path = ../JCCheckBox.podspec; sourceTree = "<group>"; };
+		EEB26277D504A3FD49C517D8 /* JCCheckBox.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JCCheckBox.podspec; path = ../JCCheckBox.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
