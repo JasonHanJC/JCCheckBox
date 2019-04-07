@@ -205,12 +205,24 @@
     return rectanglePath;
 }
 
+#pragma mark - Touch event handle
+
 - (void)touchesEnded:(NSSet*)touches withEvent:(UIEvent*)event
 {
     [super touchesEnded:touches withEvent:event];
     if (self.allTargets.count == 0) {
         self.selected = !self.selected;
     }
+}
+
+- (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
+    if ([gestureRecognizer isKindOfClass:[UITapGestureRecognizer class]]) {
+        UITapGestureRecognizer *tapGesture = (UITapGestureRecognizer *)gestureRecognizer;
+        if (tapGesture.numberOfTapsRequired == 1 && tapGesture.numberOfTouchesRequired == 1) {
+            return false;
+        }
+    }
+    return true;
 }
 
 
